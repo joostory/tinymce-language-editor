@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+.app {
+  position:fixed;
+  left:0; right:0;
+  top:0; bottom:0;
+  background-color:#ccc;
+}
+.editor-container,
+.preview-container {
+  position:fixed;
+  top:0; bottom:0;
+  width:49.9%;
+  background-color:#fff;
+  overflow:auto
+}
+
+.editor-container {
+  left:0
+}
+.editor-container td {
+  width:50%
+}
+.editor-container textarea {
+  width:100%;
+  height:100%;
+  resize:none
+}
+.preview-container {
+  right:0
+}
+.preview-container pre code {
+  white-space:pre-wrap;
+  word-break:break-all
+}
